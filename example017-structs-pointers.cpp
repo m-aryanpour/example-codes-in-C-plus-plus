@@ -27,16 +27,12 @@ int main()
 {
 	
 	
-	Product greenApple, orange, onion;
+	Product greenApple;
 	greenApple.name = "green apple"; 
 	    greenApple.price = 1.1; 
 	    greenApple.sales = 2.5*greenApple.price;
-	orange.name= "orange"; 
-		orange.price = 0.5; 
-		orange.sales = 3.*orange.price;
-	onion.name = "onion";
-		onion.price = 0.4; 
-		onion.sales = 0.;
+	Product orange= {"orange", 0.5, (3.*0.5)};
+	Product onion = {"onion",  0.4,  0. } ;
 	
 	cout<<"today's sales"<<endl;
 	print(greenApple); print(orange); print(onion);
