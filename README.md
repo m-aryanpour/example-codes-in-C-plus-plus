@@ -1,4 +1,4 @@
-# example-source-codes-in-C
+# example-codes-in-C++
 
 This is a set of example source codes written in C++. 
 The examples are intended to be used either as an extensive tutorial on C++ for beginners, or as hints for experienced programmers.
