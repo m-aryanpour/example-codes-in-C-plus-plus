@@ -5,7 +5,7 @@ The examples are intended to be used either as an extensive tutorial on C++ for 
 1) Some example codes are inspired by contents in the chapters of book "A Complete Guide to Programming in C++" by Ulla Kirch-Prinz and Peter Prinz.
 
 2) Examples starting with LA_ aim at using package LAPACK++. The license of the package is shown below.
-
+2.1)
 //
 //              LAPACK++ 1.1 Linear Algebra Package 1.1
 //               University of Tennessee, Knoxvilee, TN.
@@ -29,7 +29,8 @@ The examples are intended to be used either as an extensive tutorial on C++ for 
 // LAPACK++ was funded in part by the U.S. Department of Energy, the
 // National Science Foundation and the State of Tennessee.
 
-
+2.2) Compiling against Lapack++
+      g++  *.cpp -L/usr/local/lib/lapackpp/ -llapackpp -I//usr/local/include/lapackpp/ -llapack
 
 3) 
                       
